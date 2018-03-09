@@ -1,0 +1,14 @@
+.peg {
+  stroke-width: 1.5;
+  fill: #467794;
+  stroke: #1A4D6B;
+  pointer-events: none; }
+
+.peg.redPeg {
+  fill: #E8AE66; }
+
+.peg.hit, .peg.redPeg.hit, .peg.multiBallPeg.hit {
+  fill: #FFEA9B; }
+
+.peg.multiBallPeg {
+  fill: #816606; }

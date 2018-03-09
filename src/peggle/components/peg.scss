@@ -1,0 +1,24 @@
+
+@import '../styles/all.scss';
+
+
+.peg {
+    stroke-width: $stroke-width-sprites;
+    fill: $color-primary-2;
+    stroke:  $color-primary-3;
+    pointer-events: none;
+}
+
+
+.peg.redPeg {
+    fill: $color-complement-2;
+}
+
+
+.peg.hit, .peg.redPeg.hit, .peg.multiBallPeg.hit {
+    fill: $color-secondary-2-1;
+}
+
+.peg.multiBallPeg {
+    fill: $color-secondary-2-4;
+}

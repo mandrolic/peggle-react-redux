@@ -1,0 +1,8 @@
+
+@import '../styles/all.scss';
+
+.ball {
+    stroke-width: $stroke-width-sprites;
+    fill: $color-ball-1;
+    stroke: $color-ball-2;
+}

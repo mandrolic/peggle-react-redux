@@ -1,0 +1,32 @@
+{
+  "name": "peggle-react-redux-ts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "node-sass": "^4.7.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-scripts-ts": "2.8.0",
+    "redux": "^3.7.2",
+    "redux-loop": "^4.2.1",
+    "victor": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "build-css": "node-sass --include-path ./src --include-path ./node_modules src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.3",
+    "@types/jest": "^21.1.4",
+    "@types/node": "^8.0.46",
+    "@types/react": "^16.0.16",
+    "@types/react-dom": "^16.0.2",
+    "@types/react-redux": "^5.0.10"
+  }
+}

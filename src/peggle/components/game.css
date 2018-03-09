@@ -1,0 +1,27 @@
+.game-text {
+  stroke-width: 1.0;
+  stroke: #064669;
+  fill: #E8EAE9;
+  font-family: "Futura", "Calibri", serif;
+  font-size: 25px;
+  pointer-events: none; }
+
+.score-text {
+  fill: #814906;
+  font-family: "Futura", "Calibri", serif;
+  font-size: 10px;
+  font-weight: bold;
+  pointer-events: none; }
+
+.bonus-popup {
+  fill: #814906;
+  font-family: "Futura", "Calibri", serif;
+  font-size: 20px;
+  pointer-events: none; }
+
+.game-svg {
+  display: block;
+  margin: auto; }
+
+.game-background {
+  fill: #E8E9EB; }
